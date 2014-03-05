@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75252A4018C7940900B59642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A3F18C7940900B59642 /* Foundation.framework */; };
+		75252A4218C7940900B59642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A4118C7940900B59642 /* CoreGraphics.framework */; };
+		75252A4418C7940900B59642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A4318C7940900B59642 /* UIKit.framework */; };
+		75252A4A18C7940900B59642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75252A4818C7940900B59642 /* InfoPlist.strings */; };
+		75252A4C18C7940900B59642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A4B18C7940900B59642 /* main.m */; };
+		75252A5018C7940900B59642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A4F18C7940900B59642 /* AppDelegate.m */; };
+		75252A5318C7940900B59642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75252A5118C7940900B59642 /* Main.storyboard */; };
+		75252A5618C7940900B59642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A5518C7940900B59642 /* ViewController.m */; };
+		75252A5818C7940900B59642 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75252A5718C7940900B59642 /* Images.xcassets */; };
+		75252A5F18C7940900B59642 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A5E18C7940900B59642 /* XCTest.framework */; };
+		75252A6018C7940900B59642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A3F18C7940900B59642 /* Foundation.framework */; };
+		75252A6118C7940900B59642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A4318C7940900B59642 /* UIKit.framework */; };
+		75252A6918C7940900B59642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75252A6718C7940900B59642 /* InfoPlist.strings */; };
+		75252A6B18C7940900B59642 /* MathematicalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A6A18C7940900B59642 /* MathematicalTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75252A6218C7940900B59642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75252A3418C7940900B59642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75252A3B18C7940900B59642;
+			remoteInfo = Mathematical;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75252A3C18C7940900B59642 /* Mathematical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathematical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75252A3F18C7940900B59642 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75252A4118C7940900B59642 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		75252A4318C7940900B59642 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75252A4718C7940900B59642 /* Mathematical-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mathematical-Info.plist"; sourceTree = "<group>"; };
+		75252A4918C7940900B59642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75252A4B18C7940900B59642 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75252A4D18C7940900B59642 /* Mathematical-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mathematical-Prefix.pch"; sourceTree = "<group>"; };
+		75252A4E18C7940900B59642 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75252A4F18C7940900B59642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75252A5218C7940900B59642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75252A5418C7940900B59642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75252A5518C7940900B59642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75252A5718C7940900B59642 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75252A5D18C7940900B59642 /* MathematicalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathematicalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75252A5E18C7940900B59642 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75252A6618C7940900B59642 /* MathematicalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathematicalTests-Info.plist"; sourceTree = "<group>"; };
+		75252A6818C7940900B59642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75252A6A18C7940900B59642 /* MathematicalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathematicalTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75252A3918C7940900B59642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75252A4218C7940900B59642 /* CoreGraphics.framework in Frameworks */,
+				75252A4418C7940900B59642 /* UIKit.framework in Frameworks */,
+				75252A4018C7940900B59642 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75252A5A18C7940900B59642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75252A5F18C7940900B59642 /* XCTest.framework in Frameworks */,
+				75252A6118C7940900B59642 /* UIKit.framework in Frameworks */,
+				75252A6018C7940900B59642 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75252A3318C7940900B59642 = {
+			isa = PBXGroup;
+			children = (
+				75252A4518C7940900B59642 /* Mathematical */,
+				75252A6418C7940900B59642 /* MathematicalTests */,
+				75252A3E18C7940900B59642 /* Frameworks */,
+				75252A3D18C7940900B59642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75252A3D18C7940900B59642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75252A3C18C7940900B59642 /* Mathematical.app */,
+				75252A5D18C7940900B59642 /* MathematicalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75252A3E18C7940900B59642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75252A3F18C7940900B59642 /* Foundation.framework */,
+				75252A4118C7940900B59642 /* CoreGraphics.framework */,
+				75252A4318C7940900B59642 /* UIKit.framework */,
+				75252A5E18C7940900B59642 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75252A4518C7940900B59642 /* Mathematical */ = {
+			isa = PBXGroup;
+			children = (
+				75252A4E18C7940900B59642 /* AppDelegate.h */,
+				75252A4F18C7940900B59642 /* AppDelegate.m */,
+				75252A5118C7940900B59642 /* Main.storyboard */,
+				75252A5418C7940900B59642 /* ViewController.h */,
+				75252A5518C7940900B59642 /* ViewController.m */,
+				75252A5718C7940900B59642 /* Images.xcassets */,
+				75252A4618C7940900B59642 /* Supporting Files */,
+			);
+			path = Mathematical;
+			sourceTree = "<group>";
+		};
+		75252A4618C7940900B59642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75252A4718C7940900B59642 /* Mathematical-Info.plist */,
+				75252A4818C7940900B59642 /* InfoPlist.strings */,
+				75252A4B18C7940900B59642 /* main.m */,
+				75252A4D18C7940900B59642 /* Mathematical-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75252A6418C7940900B59642 /* MathematicalTests */ = {
+			isa = PBXGroup;
+			children = (
+				75252A6A18C7940900B59642 /* MathematicalTests.m */,
+				75252A6518C7940900B59642 /* Supporting Files */,
+			);
+			path = MathematicalTests;
+			sourceTree = "<group>";
+		};
+		75252A6518C7940900B59642 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75252A6618C7940900B59642 /* MathematicalTests-Info.plist */,
+				75252A6718C7940900B59642 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75252A3B18C7940900B59642 /* Mathematical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75252A6E18C7940900B59642 /* Build configuration list for PBXNativeTarget "Mathematical" */;
+			buildPhases = (
+				75252A3818C7940900B59642 /* Sources */,
+				75252A3918C7940900B59642 /* Frameworks */,
+				75252A3A18C7940900B59642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mathematical;
+			productName = Mathematical;
+			productReference = 75252A3C18C7940900B59642 /* Mathematical.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75252A5C18C7940900B59642 /* MathematicalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75252A7118C7940900B59642 /* Build configuration list for PBXNativeTarget "MathematicalTests" */;
+			buildPhases = (
+				75252A5918C7940900B59642 /* Sources */,
+				75252A5A18C7940900B59642 /* Frameworks */,
+				75252A5B18C7940900B59642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75252A6318C7940900B59642 /* PBXTargetDependency */,
+			);
+			name = MathematicalTests;
+			productName = MathematicalTests;
+			productReference = 75252A5D18C7940900B59642 /* MathematicalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75252A3418C7940900B59642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = 14snguyen;
+				TargetAttributes = {
+					75252A5C18C7940900B59642 = {
+						TestTargetID = 75252A3B18C7940900B59642;
+					};
+				};
+			};
+			buildConfigurationList = 75252A3718C7940900B59642 /* Build configuration list for PBXProject "Mathematical" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75252A3318C7940900B59642;
+			productRefGroup = 75252A3D18C7940900B59642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75252A3B18C7940900B59642 /* Mathematical */,
+				75252A5C18C7940900B59642 /* MathematicalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75252A3A18C7940900B59642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75252A5818C7940900B59642 /* Images.xcassets in Resources */,
+				75252A4A18C7940900B59642 /* InfoPlist.strings in Resources */,
+				75252A5318C7940900B59642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75252A5B18C7940900B59642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75252A6918C7940900B59642 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75252A3818C7940900B59642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75252A5618C7940900B59642 /* ViewController.m in Sources */,
+				75252A5018C7940900B59642 /* AppDelegate.m in Sources */,
+				75252A4C18C7940900B59642 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75252A5918C7940900B59642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75252A6B18C7940900B59642 /* MathematicalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75252A6318C7940900B59642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75252A3B18C7940900B59642 /* Mathematical */;
+			targetProxy = 75252A6218C7940900B59642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75252A4818C7940900B59642 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75252A4918C7940900B59642 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75252A5118C7940900B59642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75252A5218C7940900B59642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75252A6718C7940900B59642 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75252A6818C7940900B59642 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75252A6C18C7940900B59642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75252A6D18C7940900B59642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75252A6F18C7940900B59642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematical/Mathematical-Prefix.pch";
+				INFOPLIST_FILE = "Mathematical/Mathematical-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75252A7018C7940900B59642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematical/Mathematical-Prefix.pch";
+				INFOPLIST_FILE = "Mathematical/Mathematical-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75252A7218C7940900B59642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mathematical.app/Mathematical";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematical/Mathematical-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MathematicalTests/MathematicalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75252A7318C7940900B59642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mathematical.app/Mathematical";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mathematical/Mathematical-Prefix.pch";
+				INFOPLIST_FILE = "MathematicalTests/MathematicalTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75252A3718C7940900B59642 /* Build configuration list for PBXProject "Mathematical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75252A6C18C7940900B59642 /* Debug */,
+				75252A6D18C7940900B59642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75252A6E18C7940900B59642 /* Build configuration list for PBXNativeTarget "Mathematical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75252A6F18C7940900B59642 /* Debug */,
+				75252A7018C7940900B59642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75252A7118C7940900B59642 /* Build configuration list for PBXNativeTarget "MathematicalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75252A7218C7940900B59642 /* Debug */,
+				75252A7318C7940900B59642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75252A3418C7940900B59642 /* Project object */;
+}
