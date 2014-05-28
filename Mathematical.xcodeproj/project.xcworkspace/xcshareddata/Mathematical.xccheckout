@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BE5C1D37-DDBE-4D7D-875D-C830E51BF5E7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mathematical</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7996CEA5-994B-499A-9CCE-782EA1004F3D</key>
+		<string>https://github.com/14nrodriguez/Mathematical.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mathematical.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5952B2C7-536C-4908-B2C5-239F33D21BC8</key>
+		<string>../../../Developer/MathEquations</string>
+		<key>7996CEA5-994B-499A-9CCE-782EA1004F3D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/14nrodriguez/Mathematical.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7996CEA5-994B-499A-9CCE-782EA1004F3D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7996CEA5-994B-499A-9CCE-782EA1004F3D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mathematical</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5952B2C7-536C-4908-B2C5-239F33D21BC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MathEquations</string>
+		</dict>
+	</array>
+</dict>
+</plist>

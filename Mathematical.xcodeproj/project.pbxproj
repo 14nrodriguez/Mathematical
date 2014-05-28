@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7515115A18C79849007E396E /* QuadraticFormula.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7515115918C79849007E396E /* QuadraticFormula.JPG */; };
+		7520607C18D783F6005035AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520607B18D783F6005035AD /* ViewController.m */; };
 		75252A4018C7940900B59642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A3F18C7940900B59642 /* Foundation.framework */; };
 		75252A4218C7940900B59642 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A4118C7940900B59642 /* CoreGraphics.framework */; };
 		75252A4418C7940900B59642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A4318C7940900B59642 /* UIKit.framework */; };
@@ -14,13 +16,29 @@
 		75252A4C18C7940900B59642 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A4B18C7940900B59642 /* main.m */; };
 		75252A5018C7940900B59642 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A4F18C7940900B59642 /* AppDelegate.m */; };
 		75252A5318C7940900B59642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75252A5118C7940900B59642 /* Main.storyboard */; };
-		75252A5618C7940900B59642 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A5518C7940900B59642 /* ViewController.m */; };
 		75252A5818C7940900B59642 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75252A5718C7940900B59642 /* Images.xcassets */; };
 		75252A5F18C7940900B59642 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A5E18C7940900B59642 /* XCTest.framework */; };
 		75252A6018C7940900B59642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A3F18C7940900B59642 /* Foundation.framework */; };
 		75252A6118C7940900B59642 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75252A4318C7940900B59642 /* UIKit.framework */; };
 		75252A6918C7940900B59642 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75252A6718C7940900B59642 /* InfoPlist.strings */; };
 		75252A6B18C7940900B59642 /* MathematicalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75252A6A18C7940900B59642 /* MathematicalTests.m */; };
+		F473F6FF18F85DBB005FF949 /* MidPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F473F6FE18F85DBB005FF949 /* MidPointViewController.m */; };
+		F473F70318F8684A005FF949 /* Mid_point_formula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F473F70218F8684A005FF949 /* Mid_point_formula.jpg */; };
+		F482424D191417610052E66C /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824240191417610052E66C /* 13.png */; };
+		F482424E191417610052E66C /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824241191417610052E66C /* 12.png */; };
+		F482424F191417610052E66C /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824242191417610052E66C /* 11.png */; };
+		F4824250191417610052E66C /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824243191417610052E66C /* 10.png */; };
+		F4824251191417610052E66C /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824244191417610052E66C /* 9.png */; };
+		F4824252191417610052E66C /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824245191417610052E66C /* 8.png */; };
+		F4824253191417610052E66C /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824246191417610052E66C /* 7.png */; };
+		F4824254191417610052E66C /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824247191417610052E66C /* 6.png */; };
+		F4824255191417610052E66C /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824248191417610052E66C /* 5.png */; };
+		F4824256191417610052E66C /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F4824249191417610052E66C /* 4.png */; };
+		F4824257191417610052E66C /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F482424A191417610052E66C /* 3.png */; };
+		F4824258191417610052E66C /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F482424B191417610052E66C /* 2.png */; };
+		F4824259191417610052E66C /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F482424C191417610052E66C /* 1.png */; };
+		F4A1C3CD18F5A63600EA02E3 /* Pythag1W.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4A1C3CC18F5A63600EA02E3 /* Pythag1W.jpg */; };
+		F4ABD67B18E221930066CE4B /* PythagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4ABD67A18E221930066CE4B /* PythagViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7515115918C79849007E396E /* QuadraticFormula.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = QuadraticFormula.JPG; sourceTree = "<group>"; };
+		7520607B18D783F6005035AD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75252A3C18C7940900B59642 /* Mathematical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathematical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75252A3F18C7940900B59642 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75252A4118C7940900B59642 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,13 +66,31 @@
 		75252A4F18C7940900B59642 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75252A5218C7940900B59642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75252A5418C7940900B59642 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75252A5518C7940900B59642 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75252A5718C7940900B59642 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75252A5D18C7940900B59642 /* MathematicalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathematicalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75252A5E18C7940900B59642 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75252A6618C7940900B59642 /* MathematicalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathematicalTests-Info.plist"; sourceTree = "<group>"; };
 		75252A6818C7940900B59642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75252A6A18C7940900B59642 /* MathematicalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathematicalTests.m; sourceTree = "<group>"; };
+		F473F6FD18F85DBB005FF949 /* MidPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidPointViewController.h; path = ../MidPointViewController.h; sourceTree = "<group>"; };
+		F473F6FE18F85DBB005FF949 /* MidPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidPointViewController.m; path = ../MidPointViewController.m; sourceTree = "<group>"; };
+		F473F70218F8684A005FF949 /* Mid_point_formula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mid_point_formula.jpg; path = ../../../Mid_point_formula.jpg; sourceTree = "<group>"; };
+		F4824240191417610052E66C /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		F4824241191417610052E66C /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		F4824242191417610052E66C /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		F4824243191417610052E66C /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		F4824244191417610052E66C /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		F4824245191417610052E66C /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		F4824246191417610052E66C /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		F4824247191417610052E66C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		F4824248191417610052E66C /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F4824249191417610052E66C /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		F482424A191417610052E66C /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F482424B191417610052E66C /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F482424C191417610052E66C /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F4A1C3CC18F5A63600EA02E3 /* Pythag1W.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pythag1W.jpg; path = ../../../Pythag1W.jpg; sourceTree = "<group>"; };
+		F4ABD67918E221920066CE4B /* PythagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PythagViewController.h; sourceTree = "<group>"; };
+		F4ABD67A18E221930066CE4B /* PythagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PythagViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +153,16 @@
 				75252A4E18C7940900B59642 /* AppDelegate.h */,
 				75252A4F18C7940900B59642 /* AppDelegate.m */,
 				75252A5118C7940900B59642 /* Main.storyboard */,
+				F473F6FD18F85DBB005FF949 /* MidPointViewController.h */,
+				F473F6FE18F85DBB005FF949 /* MidPointViewController.m */,
+				F4ABD67918E221920066CE4B /* PythagViewController.h */,
+				F4ABD67A18E221930066CE4B /* PythagViewController.m */,
 				75252A5418C7940900B59642 /* ViewController.h */,
-				75252A5518C7940900B59642 /* ViewController.m */,
+				7520607B18D783F6005035AD /* ViewController.m */,
 				75252A5718C7940900B59642 /* Images.xcassets */,
+				7515115918C79849007E396E /* QuadraticFormula.JPG */,
+				F4A1C3CC18F5A63600EA02E3 /* Pythag1W.jpg */,
+				F473F70218F8684A005FF949 /* Mid_point_formula.jpg */,
 				75252A4618C7940900B59642 /* Supporting Files */,
 			);
 			path = Mathematical;
@@ -130,6 +175,19 @@
 				75252A4818C7940900B59642 /* InfoPlist.strings */,
 				75252A4B18C7940900B59642 /* main.m */,
 				75252A4D18C7940900B59642 /* Mathematical-Prefix.pch */,
+				F4824240191417610052E66C /* 13.png */,
+				F4824241191417610052E66C /* 12.png */,
+				F4824242191417610052E66C /* 11.png */,
+				F4824243191417610052E66C /* 10.png */,
+				F4824244191417610052E66C /* 9.png */,
+				F4824245191417610052E66C /* 8.png */,
+				F4824246191417610052E66C /* 7.png */,
+				F4824247191417610052E66C /* 6.png */,
+				F4824248191417610052E66C /* 5.png */,
+				F4824249191417610052E66C /* 4.png */,
+				F482424A191417610052E66C /* 3.png */,
+				F482424B191417610052E66C /* 2.png */,
+				F482424C191417610052E66C /* 1.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -196,9 +254,12 @@
 		75252A3418C7940900B59642 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = 14snguyen;
 				TargetAttributes = {
+					75252A3B18C7940900B59642 = {
+						DevelopmentTeam = K28KQC6A4X;
+					};
 					75252A5C18C7940900B59642 = {
 						TestTargetID = 75252A3B18C7940900B59642;
 					};
@@ -228,9 +289,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4824254191417610052E66C /* 6.png in Resources */,
+				F4824252191417610052E66C /* 8.png in Resources */,
+				F4824253191417610052E66C /* 7.png in Resources */,
+				F4824257191417610052E66C /* 3.png in Resources */,
+				F4824251191417610052E66C /* 9.png in Resources */,
+				F4824250191417610052E66C /* 10.png in Resources */,
+				F4824258191417610052E66C /* 2.png in Resources */,
 				75252A5818C7940900B59642 /* Images.xcassets in Resources */,
+				F4824259191417610052E66C /* 1.png in Resources */,
+				F4824255191417610052E66C /* 5.png in Resources */,
 				75252A4A18C7940900B59642 /* InfoPlist.strings in Resources */,
+				F473F70318F8684A005FF949 /* Mid_point_formula.jpg in Resources */,
 				75252A5318C7940900B59642 /* Main.storyboard in Resources */,
+				F482424F191417610052E66C /* 11.png in Resources */,
+				F482424E191417610052E66C /* 12.png in Resources */,
+				F4824256191417610052E66C /* 4.png in Resources */,
+				F4A1C3CD18F5A63600EA02E3 /* Pythag1W.jpg in Resources */,
+				7515115A18C79849007E396E /* QuadraticFormula.JPG in Resources */,
+				F482424D191417610052E66C /* 13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75252A5618C7940900B59642 /* ViewController.m in Sources */,
+				7520607C18D783F6005035AD /* ViewController.m in Sources */,
+				F4ABD67B18E221930066CE4B /* PythagViewController.m in Sources */,
 				75252A5018C7940900B59642 /* AppDelegate.m in Sources */,
 				75252A4C18C7940900B59642 /* main.m in Sources */,
+				F473F6FF18F85DBB005FF949 /* MidPointViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +384,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -344,7 +422,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -378,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mathematical/Mathematical-Prefix.pch";
 				INFOPLIST_FILE = "Mathematical/Mathematical-Info.plist";
@@ -391,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mathematical/Mathematical-Prefix.pch";
 				INFOPLIST_FILE = "Mathematical/Mathematical-Info.plist";
@@ -402,7 +481,6 @@
 		75252A7218C7940900B59642 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mathematical.app/Mathematical";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -425,7 +503,6 @@
 		75252A7318C7940900B59642 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mathematical.app/Mathematical";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -460,6 +537,7 @@
 				75252A7018C7940900B59642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75252A7118C7940900B59642 /* Build configuration list for PBXNativeTarget "MathematicalTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +546,7 @@
 				75252A7318C7940900B59642 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

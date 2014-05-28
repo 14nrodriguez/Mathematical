@@ -2,12 +2,24 @@
 //  ViewController.h
 //  Mathematical
 //
-//  Created by 14snguyen on 3/5/14.
-//  Copyright (c) 2014 14snguyen. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+
+{
+    IBOutlet UIImageView *AnimatedPicture;
+    
+}
+
+@property (nonatomic, weak) IBOutlet UITextField *aTextField;
+@property (nonatomic, weak) IBOutlet UITextField *bTextField;
+@property (nonatomic, weak) IBOutlet UITextField *cTextField;
+
+- (IBAction)quadshowAlert;
+- (IBAction)removeKeyboard;
+//scroll view used for when keyboard appear, all view objects can move up
+
 
 @end
